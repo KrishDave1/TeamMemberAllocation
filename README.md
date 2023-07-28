@@ -100,9 +100,82 @@ The Team Member Allocation App is a basic implementation to manage team members.
 - Ability to add, edit, and remove team members dynamically.
 - Data visualization and charts for team member statistics.
 
-## License
+### Installation
+
+To run the Team Member Allocation App locally, follow these steps:
+
+1. Clone the repository from GitHub:
+
+```bash
+git clone https://github.com/KrishDave1/team-member-allocation-app.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd team-member-allocation-app
+```
+
+3. Ensure you have Node.js and npm (Node Package Manager) installed on your machine.
+
+4. Install the project dependencies:
+
+```bash
+npm install
+```
+
+### Technologies Used
+
+The Team Member Allocation App is built using the following technologies:
+
+- React: A JavaScript library for building user interfaces.
+- react-router-dom: A package for handling routing in a React application.
+- Bootstrap: A popular CSS framework for styling the app.
+
+### Packages Installed
+
+The project relies on the following npm packages:
+
+- react: ^17.0.2
+- react-dom: ^17.0.2
+- react-router-dom: ^5.3.0
+- bootstrap: ^5.1.0
+
+These packages are defined in the `package.json` file and installed using the `npm install` command, as mentioned in the installation steps.
+
+### Prerequisites
+
+Before running the Team Member Allocation App, ensure that you have the following prerequisites:
+
+1. Node.js: Make sure you have Node.js installed on your machine. You can download it from the official website: https://nodejs.org/
+
+2. Code Editor: You need a code editor like Visual Studio Code, Sublime Text, or Atom to view and edit the project's source code.
+
+### Usage
+
+1. After installing the dependencies, start the development server:
+
+```bash
+npm start
+```
+
+2. The app will open in your default web browser at `http://localhost:3000`.
+
+3. Use the navigation links provided to explore the different sections of the app.
+
+4. On the home page, you can see the list of team members and their allocations to teams. You can also switch between teams using the dropdown.
+
+5. The "Teams" page displays team members grouped by teams. Click on a team header to expand or collapse the member list for that team.
+
+### License
 
 The Team Member Allocation App is open-source and available under the [MIT License](LICENSE).
+
+### Contact
+
+For any questions or feedback, feel free to reach out to [Krish Dave](Krish.Dave@iiitb.ac.in).
+
+---
 
 ## Feedback and Contributions
 
